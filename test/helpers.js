@@ -1,5 +1,7 @@
+// global.expect = require('expect');
+
 const chai = require('chai')
-global.expect = chai.expect
+ global.expect = chai.expect
 const sinonChai = require('sinon-chai');
 const fs = require('file-system')
 const jsdom = require('mocha-jsdom')
@@ -20,3 +22,4 @@ const src = babelResult.code
 jsdom({
   html, src
 });
+

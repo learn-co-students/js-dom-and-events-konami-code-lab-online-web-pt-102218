@@ -13,7 +13,7 @@ function init() {
     if (key === code[index]) {
       index++
       if (index === code.length) {
-        alert("YOU DID IT!")
+        alert("Hooray!!!")
         index = 0
       }
     } else {

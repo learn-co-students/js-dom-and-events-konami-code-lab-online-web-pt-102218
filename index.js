@@ -11,5 +11,8 @@ function init() {
       }
       
     }
+    else{
+      j=0
+    }
   })
 }

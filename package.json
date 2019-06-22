@@ -30,7 +30,8 @@
     "mocha": "5.2.0",
     "mocha-jsdom": "~1.1.0",
     "mocha-multi": "1.0.1",
-    "sinon-chai": "^3.3.0"
+    "sinon-chai": "^3.3.0",
+    "expect": "~24.8.0"
   },
   "dependencies": {
     "sinon": "^7.2.5"

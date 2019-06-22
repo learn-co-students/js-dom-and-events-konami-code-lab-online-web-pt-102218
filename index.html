@@ -12,7 +12,7 @@
   </div>
 
   <body>
-    <script src="konami_code.js"></script>
+    <script src="index.js"></script>
 
     <!-- Run `learn` or `npm install` -->
     <!-- Open this file in the browser -->
@@ -20,11 +20,11 @@
 
     <div id="mocha"></div>
     <script src="node_modules/mocha/mocha.js"></script>
-    <script src="node_modules/expect/umd/expect.min.js"></script>
+    <script src="https://unpkg.com/expect@%3C21/umd/expect.min.js"></script>
     <script>
       mocha.setup('bdd');
     </script>
-    <script src="test/index-test.js"></script>
+    <script src="test/indexTest.js"></script>
   </body>
 
 </html>
